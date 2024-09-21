@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100%;
+  width: 100%;
+}
+.main_contant{
+  display: flex;
+  flex-direction: row;
+  border: solid black 3px;
+  border-radius: 20px;
+  /* box-sizing: border-box; */
+ justify-content: space-between;
+ /* align-items: center ; */
+ margin-top: 20px;
+ max-height: 50px;
+ 
+}
+.Solution{
+  display: flex;
+  flex-direction: column;
+  
+}
+.solution{
+  display: flex;
+margin-top: 10px;
+}
+/* .solution :hover{
+ margin-top: 50px;
+ transition: all 0.2s linear 0s ;
+} */
